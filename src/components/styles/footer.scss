@@ -18,7 +18,7 @@
             border-radius: 5px;
             border: none;
             height: 35px;
-            width: 70%;
+            width: 69%;
             padding: 10px;
             margin: 10px 0;
 
@@ -29,18 +29,122 @@
     }
 
     .footer-links {
-        float: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100%;
+        margin-top: 15%;
+        padding: 0 10%;
+
+        h3 {
+            margin: 15px 0;
+        }
+        a {
+            margin: 3px 0;
+        }
         
         .link-column {
             display: flex;
             flex-direction: column;
-            width:50%;
+            margin: 1%;
+            width: 48%;
+        }
+    }
+    .logo {
+        margin: 25px 0 0 10px;
+        text-align: center;
+        
+        span {
+            display: block;
+        }
+
+        span:first-child {
+            font-size: 24px;
+            margin: 20px 0 5px 0;
+        }
+    }
+
+    .social-media {
+        margin-top: 20px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 0 15px;
         }
     }
 
 }
 
-@media only screen and (max-width:600px) {
-    
+@media only screen and (min-width: 800px) {
+    .footer {
+        width: 100%;
+        padding: 3% 10%;
+
+        .footer-container {
+            width: 100%;
+
+            .toptext {
+                text-align: center;
+
+                span {
+                    font-size: 20px;
+                }
+            }
+            form {
+                width: 100%;
+
+                input {
+                    margin: 0 20px;
+                    width: 300px;
+                    height: 39px;
+                }
+                button {
+                    transform: translateY(-2px);
+                    width: 140px;
+                }
+            }
+            .footer-links {
+                margin: 5% 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                h3 {
+                    font-size: 24px;
+                }
+                .link-column {
+                    display: flex;
+                    flex-direction: column;
+                    width: 20%;
+                    font-size: 18px;
+                }
+            }
+            .footer-down {
+                .logo {
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    float: left;
+                    width: 70%;
+
+                    span {
+                        padding: 0;
+                        margin: 0;
+                    }
+                    span:last-child {
+                        transform: translateY(3px);
+                        margin-left: 50%;
+                    }
+                }
+                .social-media {
+                    padding: 0;
+                    margin: 0;
+                    float: right;
+                }
+            }
+        }
+    }
 }

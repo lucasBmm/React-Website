@@ -9,12 +9,14 @@ export function Hero() {
             <div className="text-container">
             <h1>ADVENTURE AWAITS</h1>
             <h3>What are you waiting for?</h3>
-            <Button size="btn-medium" style="btn-navbar">
-                GET STARTED
-            </Button>
-            <Button size="btn-medium" style="btn-hero">
-                WATCH TRAILER
-            </Button>
+            <div className="button-container">
+                <Button size="btn-medium" style="btn-navbar">
+                    GET STARTED
+                </Button>
+                <Button size="btn-medium" style="btn-hero">
+                    WATCH TRAILER <i style={{marginLeft: "5px"}} className="fas fa-play"></i>
+                </Button>
+            </div> 
             </div>
         </div>
     )

@@ -48,13 +48,12 @@ export function Footer() {
                 </div>
                 <div className="footer-down">
                     <div className="logo">
-                        TRVL
-                        <i class="fab fa-react"></i>
+                        <span>TRVL<i class="fab fa-react"></i></span>
+                        <span>Made by Lucas Bomfim</span>
                     </div>
-                    <span>Made by Lucas Bomfim</span>
                     <div className="social-media">
                         <a>
-                        <i class="fab fa-instagram"></i>
+                            <i class="fab fa-instagram"></i>
                         </a>
                         <a>
                         <i class="fab fa-facebook"></i>

@@ -26,7 +26,7 @@ export function Navbar() {
             <div className="navbar">
                 <div className="nav-container">
                     <ul>
-                        <li>
+                        <li className="logo">
                             <div className="logo">
                                 TRVL
                                 <i class="fab fa-react"></i>
