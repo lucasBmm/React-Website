@@ -1,11 +1,14 @@
 import { Button } from "./Button";
+import './styles/footer.scss'
 
 export function Footer() {
     return (
         <div className="footer">
             <div className="footer-container">
-                <h2>Join the Adventure newsletter to receive our best vacation deals</h2>
-                <span>You can unsubscribe at any time.</span>
+                <div className="toptext">
+                    <h2>Join the Adventure newsletter to receive our best vacation deals</h2>
+                    <span>You can unsubscribe at any time.</span>
+                </div>
                 <form>
                     <input type="text" placeholder="Your Email"/>
                     <Button style="btn-navbar" size="btn-medium">
