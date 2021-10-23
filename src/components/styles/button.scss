@@ -1,0 +1,45 @@
+// Sizes
+
+button {
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.btn-medium {
+    margin: 15px 0 0;
+    height: 40px;
+    width: 300px;
+}
+.btn-small {
+    margin: 10px;
+    margin-right: 10vh;
+    height: 30px;
+    width: 100px;
+}
+
+// Styles
+.btn-navbar {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font: bold;
+
+    &:hover {
+        color: black;
+        background-color: rgb(255, 255, 255, 0.2);
+
+    }
+}
+
+.btn-hero {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
