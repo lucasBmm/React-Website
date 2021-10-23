@@ -15,13 +15,17 @@ video {
     justify-content: center;
     align-items: center;
 
-    h1 {font-size: 42px}
+    h1 {text-align: center; font-size: 38px; margin-bottom: 15px;}
     h3 {font-size: 20px}
 
     .button-container {
         display: flex;
         justify-content: center;
         flex-direction: column;
+
+        button {
+            width: 200px;
+        }
     }
 
 }
